@@ -94,7 +94,6 @@ Car.prototype.drive = function(distance) {
 };
 };
 
-
 /*
   TASK 3
     - Write a Baby constructor subclassing Person.
@@ -110,10 +109,10 @@ function Baby() {
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. global/window scope the Object is in the window or console.
+  2. implicit binding,When a preceding dot calls a function, the object before the dot is the "this".
+  3.New Binding is when we use a constructor function, this points to the specific instance of the object that is created and returned by the constructor function.
+  4. Explicit binding when you use .call or .apply methods to override the binding.
 */
 
 
